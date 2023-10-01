@@ -1,5 +1,4 @@
 
-
 *{
     padding: 0;
     margin: 0;
@@ -87,4 +86,48 @@ header > div > nav > ul > li > button > a > img{
     opacity: 20%;
     display: flex;
     align-items: center;
+}
+
+main {
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1240px;
+}
+
+main > h1 {
+    padding-bottom: 40px;
+    font-size: 72px;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    
+    padding-bottom: 40px;
+}
+
+.first > img {
+    object-fit:cover;
+    width:492px;
+    height:387px;
+    border-radius: 83px;
+
+    box-shadow: 25px 0px 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.first > div{
+    display: table-column;
+    justify-content:center;
+}
+
+.first > div > h3 {
+    font-size: 57px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.first > div > p {
+    font-size: 32px;
 }
