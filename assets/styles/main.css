@@ -1,0 +1,90 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+}
+
+header > div > nav > ul > li > a:hover {
+    color: purple;
+    
+}
+
+header > div > img{
+    height: 40px;
+    transition: color 0.3s;
+}
+
+header{
+    padding: 0.4cm;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Dela Gothic One';
+}
+
+header > div:first-child{
+    align-items: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header > div:first-child > nav{
+    align-items: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header > div > nav > ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+header > div > nav > ul > li > a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    
+}
+
+header > div > nav > ul > li > button {
+    height: 37px;
+    background-color: white;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2) inset;
+}
+
+header > div > nav > ul > li > form > input{
+    padding: 10px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2) inset;
+    
+    
+}
+
+header > div > nav > ul > li > button > a > img{
+    padding: 8px;
+    height: 18px;
+    opacity: 20%;
+    display: flex;
+    align-items: center;
+}
