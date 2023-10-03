@@ -10,12 +10,11 @@ body{
 
 header > div > nav > ul > li > a:hover {
     color: purple;
-    
+    transition: color 0.4s;
 }
 
 header > div > img{
     height: 40px;
-    transition: color 0.3s;
 }
 
 header{
@@ -100,7 +99,7 @@ main > h1 {
     font-size: 72px;
 }
 
-.first {
+.first , .second{
     display: flex;
     justify-content: space-between;
     gap: 30px;
@@ -124,10 +123,179 @@ main > h1 {
 
 .first > div > h3 {
     font-size: 57px;
-    padding-bottom: 50px;
-    padding-top: 10px;
+    padding-bottom: 25px;
 }
 
 .first > div > p {
     font-size: 32px;
+    line-height:48px;
+} 
+
+.second > img {
+    object-fit:cover;
+    width:492px;
+    height:387px;
+    border-radius: 83px;
+
+    box-shadow: -25px 0px 25px 0 rgba(0, 0, 0, 0.1);
 }
+
+
+.second > div{
+    display: table-column;
+    justify-content:center;
+}
+
+.second > p > nobr {
+    font-size: 42px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.second > p {
+    font-size: 32px;
+    line-height:48px;
+}
+
+hr{
+    height: 3px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 50%, rgba(255,255,255,1) 100%);
+    border: 0;
+}
+
+.recomendation > p {
+    padding: 45px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.panels {
+    background-color: whitesmoke;
+    border-radius: 50px;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin: 100px;
+}
+
+.panel {
+    background: rgb(175,233,251);
+    background: linear-gradient(0deg, rgba(175,233,251,1) 0%, rgba(211,144,243,1) 100%);
+    border-radius: 28px;
+    display: flex;
+    gap: 20px;
+    height: 300px;
+    
+}
+
+.panel > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.panel > div > button {
+    width: 393px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.panel > div > button > p{
+    font-size: 28px;
+}
+
+.panel > div > h2{
+    font-size: 32px;
+}
+
+.panel > div > p{
+    font-size: 24px;
+}
+
+.panel > img {
+    padding-left: 20px;
+}
+
+footer {
+    height: 226px;
+    flex-shrink: 0;
+    background: #272727;
+    box-shadow: 0px 61px 100px 104px rgba(0, 0, 0, 0.25); 
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.aboutMe {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aboutMe > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 11px;
+}
+
+footer p , a {
+    color: white;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Times New Roman;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2.16px;
+}
+
+.ssilki {
+    align-self: center;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+.ssilki > img {
+    width: 150px;
+    height: auto;
+    
+}
+
+.ssilki > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ssilki > div > button  {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #272727;
+    border: 0px solid #ccc;
+}
+
+.ssilki > div > button > img {
+    height: 40px;
+    width: 40px;
+}
+
+
+
+
+
