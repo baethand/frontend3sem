@@ -67,16 +67,35 @@ header > div > nav > ul > li > button {
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2) inset;
 }
 
-header > div > nav > ul > li > form > input{
-    padding: 10px 10px;
-    display: inline-block;
+.search {
+    display: inline-flex;
+    padding: 8px 8px;
     border: 1px solid #ccc;
     border-radius: 6px;
     box-sizing: border-box;
 
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2) inset;
-    
-    
+}
+
+.search > input {
+    outline: none;
+    border: none;
+    background: transparent;
+    /* padding: 10px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2) inset; */
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    order: -1;
+    opacity: 20%;
 }
 
 header > div > nav > ul > li > button > a > img{
@@ -293,6 +312,10 @@ footer p , a {
 .ssilki > div > button > img {
     height: 40px;
     width: 40px;
+}
+
+.skip {
+    padding: 300px;
 }
 
 
