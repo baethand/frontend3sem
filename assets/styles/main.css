@@ -57,7 +57,7 @@ header > div > nav > ul > li > a{
 }
 
 header > div > nav > ul > li > button {
-    height: 37px;
+    height: 39px;
     background-color: white;
     display: inline-block;
     border: 1px solid #ccc;
@@ -67,6 +67,9 @@ header > div > nav > ul > li > button {
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2) inset;
 }
 
+.telephone-button > button:hover {
+    background: whitesmoke;
+}
 .search {
     display: inline-flex;
     padding: 8px 8px;
@@ -81,13 +84,6 @@ header > div > nav > ul > li > button {
     outline: none;
     border: none;
     background: transparent;
-    /* padding: 10px 10px;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    box-sizing: border-box;
-
-    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2) inset; */
 }
 
 .search-icon {
@@ -216,10 +212,9 @@ hr{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-
 }
 
-.panel > div > button {
+.next-page-button {
     width: 393px;
     height: 90px;
     flex-shrink: 0;
@@ -229,8 +224,14 @@ hr{
     border: none;
 }
 
-.panel > div > button > p{
+.next-page-button:hover {
+    background: whitesmoke;
+}
+
+.next-page-button > p{
     font-size: 28px;
+    font-family: 'Dela Gothic One';
+    font-weight: bold;
 }
 
 .panel > div > h2{
@@ -300,7 +301,7 @@ footer p , a {
     justify-content: space-between;
 }
 
-.ssilki > div > button  {
+.ssilki > div > form > button  {
     height: 50px;
     width: 50px;
     display: inline-block;
@@ -309,7 +310,7 @@ footer p , a {
     border: 0px solid #ccc;
 }
 
-.ssilki > div > button > img {
+.ssilki > div > form > button > img {
     height: 40px;
     width: 40px;
 }
@@ -318,7 +319,68 @@ footer p , a {
     padding: 300px;
 }
 
+.telephone-button {
+    display: flex;
+}
 
+@media (max-width: 1450px) {
+	body{
+        background-color: #ccc; 
+    }
+}
 
+.comments {
+    width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .comments h2 {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 28px;
+  }
+  .comments form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .comments form input,
+  .comments form textarea{
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: 2px solid rgb(194, 194, 194);
 
+    font-size: 15px;
+    
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2) inset;
+  }
 
+.comments form button {
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+}
+  
+  .comments form button {
+    background-color: #007bff;
+    color: #fff;
+    border: 2px solid #005fc4;
+    cursor: pointer;
+    border-radius: 13px;
+  }

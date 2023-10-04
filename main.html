@@ -38,7 +38,11 @@
                             </div>
                         </form>
                     </li>
-                    <li><button><a href="tel:+79263862684"><img src="./assets/image/hrefLogo/phoneIco.png" alt="telIco" height="25"></a></button></li>
+                    <li class="telephone-button">
+                        <button>
+                            <a href="tel:+79263862684"><img src="./assets/image/hrefLogo/phoneIco.png" alt="telIco" height="25"></a>
+                        </button>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -91,10 +95,12 @@
                 <div>
                     <h2>Виртуальная реальность</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, magni ea? Quasi dolores non ipsam dolorem ratione ex corrupti, quo quis labore? Asperiores totam numquam ratione repellendus officia, quam atque.</p>
-                    <button>
-                        <a href="virtualReality.html">Переход</a>
-                        <p>Читать полную статью</p>
-                    </button>
+                    <form action="virtualReality.html" target="_blank">
+                        <button class="next-page-button">
+                            <p>Читать полную статью</p>
+                        </button>
+                    </form>
+                    
                 </div>
                 
             </div>
@@ -104,9 +110,11 @@
                 <div>
                     <h2>Мобильные телефоны</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint quia, repellendus eius natus voluptas ab debitis eum commodi explicabo libero? Consequatur similique eius ut officiis aliquam voluptas inventore, ratione hic?</p>
-                    <button>
-                        <p>Читать полную статью</p>
-                    </button>
+                    <form action="virtualReality.html" target="_blank">
+                        <button class="next-page-button">
+                            <p>Читать полную статью</p>
+                        </button>
+                    </form>
                 </div>
                 
                 
@@ -117,12 +125,25 @@
                 <div>
                     <h2>Портативные гаджеты</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aperiam distinctio id perferendis, culpa nisi in reiciendis dolorem voluptatum alias, tempora excepturi iste voluptatem illum. Impedit, adipisci ex? Corrupti, provident!</p>
-                    <button>
-                        <p>Читать полную статью</p>
-                    </button>
+                    <form action="virtualReality.html" target="_blank">
+                        <button class="next-page-button">
+                            <p>Читать полную статью</p>
+                        </button>
+                    </form>
                 </div>
                 
             </div>
+        </div>
+
+        <hr>
+
+        <div class="comments">
+            <h2>Написать на почту</h2>
+            <form id="comment-form">
+              <input type="text" id="name" placeholder="Ваше имя" required />
+              <textarea id="comment" placeholder="Введите комментарий" required></textarea>
+              <button type="submit">Отправить</button>
+            </form>
         </div>
     </main>
 
@@ -131,16 +152,22 @@
             <ul>
                 <p><a name="About">Связь со мной:</a></p>
                 <li><p>Почта: <a href="mailto:rudenko_lex@mail.ru">rudenko_lex@mail.ru</a></p></li>
-                <li><p>Ссылка на мой тг: <a href="https://google.com"> ссылочка</a></p></li>
+                <li><p>Ссылка на мой тг: <a href="https://t.me/Vvs_1337"> ссылочка</a></p></li>
                 <li><p>Телефон: <a href="tel:+79263862684">+7 (926) 386-26-84</a></p></li>
             </ul>
             <a name="Footer">2023 &copy; Rudenko Aleksey</a>
         </div>
         <div class="ssilki">
             <div>
-                <button><img src="./assets/image/hrefLogo/tgLogo.png" alt="tg" height="20"></button>
-                <button><img src="./assets/image/hrefLogo/vkLogo.png" alt="vk" height="20"></button>
-                <button><img src="./assets/image/hrefLogo/instLogo.png" alt="inst" height="20"></button>
+                <form action="https://t.me/Vvs_1337" target="_blank">
+                    <button><img src="./assets/image/hrefLogo/tgLogo.png" alt="tg" height="20"></button>
+                </form>
+                <form action="https://vk.com/namessis" target="_blank">
+                    <button><img src="./assets/image/hrefLogo/vkLogo.png" alt="vk" height="20"></button>
+                </form>
+                <form action="https://www.vedomosti.ru/media/news/2022/03/14/913293-instagram-reestr-zapreschennih-saitov" target="_blank">
+                    <button><img src="./assets/image/hrefLogo/instLogo.png" alt="inst" height="20"></button>
+                </form>
             </div>
             <img src="./assets/image/saitekLogo/saitekLogo2.webp" alt="logoSaitek" height="47">
         </div>
