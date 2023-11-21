@@ -1,0 +1,68 @@
+footer {
+    height: 226px;
+    flex-shrink: 0;
+    background: #272727;
+    box-shadow: 0px 61px 100px 104px rgba(0, 0, 0, 0.25); 
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.aboutMe {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aboutMe > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 11px;
+}
+
+footer p , a {
+    color: white;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Times New Roman;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2.16px;
+}
+
+.ssilki {
+    align-self: center;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+.ssilki > img {
+    width: 150px;
+    height: auto;
+    
+}
+
+.ssilki > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ssilki > div > form > button  {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #272727;
+    border: 0px solid #ccc;
+}
+
+.ssilki > div > form > button > img {
+    height: 40px;
+    width: 40px;
+}

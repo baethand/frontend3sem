@@ -1,0 +1,109 @@
+header {
+    background-color: white;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    padding: 20px 20px 20px 0px;
+    border-bottom: 2px solid black;
+    display: flex;
+    height: 2em;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Dela Gothic One';
+    transition: opacity 0.5s ease; 
+}
+  
+  .header-transparent {
+    opacity: 0.0;
+  }
+  
+  header > div > nav > ul > li > a:hover {
+    color: purple;
+    transition: color 0.4s;
+  }
+  
+  .menuBtn {
+      display: none;
+  }
+  
+  header > div > img{
+      height: 40px;
+      padding-left: 20px;
+  }
+  
+  
+  header > div:first-child{
+      align-items: center;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+  }
+  
+  header > div:first-child > nav{
+      align-items: center;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+  }
+  
+  header > div > nav > ul {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+  
+  }
+  
+  header > div > nav > ul > li > a{
+      display: block;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: black;
+      
+  }
+  
+  header > div > nav > ul > li > button {
+      height: 39px;
+      background-color: white;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+  
+      box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2) inset;
+  }
+
+  .telephone-button > button:hover {
+    background: whitesmoke;
+}
+.search {
+    display: inline-flex;
+    padding: 8px 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2) inset;
+}
+
+.search > input {
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    order: -1;
+    opacity: 20%;
+}
+
+header > div > nav > ul > li > button > a > img{
+    padding: 8px;
+    height: 18px;
+    opacity: 20%;
+    display: flex;
+    align-items: center;
+}
