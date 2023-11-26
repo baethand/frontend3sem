@@ -1,0 +1,47 @@
+
+
+main {
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1240px;
+}
+
+.pageTitle {
+    padding-bottom: 40px;
+    font-size: 62px; 
+    float: left;
+}
+
+p#context {
+    font-size: 24px;
+    margin: 20px;
+    margin-top: 30px;
+    text-align: center;
+    clear: both;
+}
+
+img#vrTitle {
+    object-fit:cover;
+    width:300px;
+    border-radius: 83px;
+    margin-left: 70px;
+    box-shadow: 25px 0px 25px 0 rgba(0, 0, 0, 0.1);
+
+}
+
+hr{
+    height: 3px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 50%, rgba(255,255,255,1) 100%);
+    border: 0;
+}
+
+h2, h3 {
+    font-size: 26px;
+    padding: 20px 20px 20px 0px;
+}
+
+p {
+    font-size: 20px;
+}
