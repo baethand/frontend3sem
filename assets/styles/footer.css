@@ -69,10 +69,16 @@ footer p , a {
 }
 
 
-@media (max-width: 1300px) {
-	main{
-        width: 100%;
-        padding-left: 10px;
-        padding-right: 10px;
+@media (max-width: 570px) {
+	footer {
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        gap: 20px
     }
+
+    footer p, a{
+        font-size: 20px;
+    }
+
 }
