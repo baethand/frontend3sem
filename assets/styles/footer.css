@@ -6,6 +6,7 @@ footer {
     display: flex;
     justify-content: space-between;  
     padding: 20px;
+    overflow-x: hidden;
 }
 
 .aboutMe {
@@ -65,4 +66,13 @@ footer p , a {
 .ssilki > div > form > button > img {
     height: 40px;
     width: 40px;
+}
+
+
+@media (max-width: 1300px) {
+	main{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }

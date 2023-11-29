@@ -10,7 +10,8 @@ header {
     align-items: center;
     justify-content: space-between;
     font-family: 'Dela Gothic One';
-    transition: opacity 0.5s ease; 
+    transition: opacity 0.25s ease; 
+    overflow-x: hidden;
 }
 
 .header-transparent {
@@ -81,6 +82,28 @@ header > div > nav > ul > li > button {
 .telephone-button > button:hover {
     background: whitesmoke;
 }
+
+.menuBtn {
+    display: none;
+    padding: 8px;
+    padding-top: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2) inset;
+}
+
+.menuBtn button {
+    background: none;
+    background-color: transparent;
+    border: none;
+}
+
+.menuBtn button img {
+    opacity: 30%;
+}
+
 .search {
     display: inline-flex;
     padding: 8px 8px;
@@ -111,4 +134,15 @@ header > div > nav > ul > li > button > a > img{
     opacity: 20%;
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 1370px) {
+	header div nav ul li {
+        display: none;
+    }
+
+    .menuBtn {
+        display: inline-flex;
+        
+    }
 }

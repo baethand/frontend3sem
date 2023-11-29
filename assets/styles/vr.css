@@ -45,3 +45,16 @@ h2, h3 {
 p {
     font-size: 20px;
 }
+
+.gallery-container{
+    margin: 40px;
+    background: radial-gradient(circle, rgba(144, 17, 158, 0.616) 30%, rgba(70, 169, 191, 0.1) 85%, rgba(70, 169, 191, 0) 90%);
+}
+
+
+@media (max-width: 1300px) {
+	body{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
