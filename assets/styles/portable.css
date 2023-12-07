@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=SF+Pro+Display');
+
 main {
     padding-top: 100px;
     margin-left: auto;
@@ -14,8 +16,10 @@ body {
 hr{
     height: 3px;
     background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 50%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 50%, rgba(255,255,255,0) 100%);
     border: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -28,7 +32,7 @@ p#context {
     font-size: 24px;
     margin: auto;
     margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-align: center;
     clear: both;
     display: block;
@@ -47,18 +51,57 @@ p#context {
     background: linear-gradient(to top, rgb(148,212,202), rgb(138,105,184));
 }
 
+.img-center {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(0px 0px 6px #4e4e4e);
+}
+
 h2, h3 {
     margin-top: 20px;
-    font-size: 29px;
+    font-size: 32px;
     padding: 20px 20px 20px 0px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 24px;
+}
+
+.floatRight {
+    object-fit:cover;
+    float: right;
+    width: 30%;
+    filter: drop-shadow(0px 0px 6px #4e4e4e);
+    margin: 20px;
+}
+
+#skip {
+    clear: both;
+}
+
+.video-container {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.video-container iframe {
+    border-radius: 40px;
 }
 
 
-
+.floatLeft {
+    object-fit:cover;
+    float: left;
+    width: 30%;
+    filter: drop-shadow(0px 0px 6px #4e4e4e);
+    height: auto;
+    margin: 30px;
+}
 
 .btnPagesContainer {
     list-style: none;
@@ -117,4 +160,18 @@ p {
 	main{
         width: 90%;
     }
+
+    iframe {
+        width: 90%;
+        height: auto;
+    }
+    
 }
+
+@media (max-width: 1850px) {
+	body {
+        background: white;
+    }
+}
+
+
