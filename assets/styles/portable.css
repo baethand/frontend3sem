@@ -149,7 +149,15 @@ p {
 
 @media (max-width: 500px) {
 	main{
-        width: 100%;
+        width: 90%;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    h2, h3 {
+        font-size: 24px;
     }
 
     iframe {
