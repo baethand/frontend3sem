@@ -11,6 +11,10 @@ main {
     font-family: 'SF Pro Display', sans-serif;
 }
 
+.skip {
+    margin-bottom: 300px;
+}
+
 @media (max-width: 1300px) {
 	main {
         width: 90%;
