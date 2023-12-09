@@ -24,7 +24,7 @@ img#phoneTitle {
     margin: 5px;
     margin-top: 30px;
     margin-bottom: 50px;
-    background-image: url(/assets/image/phone/iphone_background.jpg);
+    background-image: url(../image/phone/iphone_background.jpg);
     background-size: cover;
     height: 600px;
     padding: 30px;
