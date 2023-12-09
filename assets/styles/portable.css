@@ -128,9 +128,40 @@ p {
     transition: ease-out 0.15s;
 }
 
+
+
+@media (max-width: 1300px) {
+	main{
+        width: 90%;
+    }
+
+    iframe {
+        width: 90%;
+        height: 400px;
+    }
+}
+
+@media (max-width: 1850px) {
+	body {
+        background: white;
+    }
+}
+
 @media (max-width: 500px) {
 	main{
         width: 100%;
+    }
+
+    iframe {
+        width: 70%;
+        height: 130px;
+        display: block;
+        margin: auto;
+    }
+
+    .video-container {
+        display: block;
+        margin: auto;
     }
 
     .btnPagesContainer {
@@ -156,22 +187,16 @@ p {
     }
 }
 
-@media (max-width: 1300px) {
-	main{
-        width: 90%;
-    }
-
-    iframe {
-        width: 90%;
-        height: auto;
-    }
-    
-}
-
-@media (max-width: 1850px) {
-	body {
-        background: white;
+@media (max-width: 950px) {
+	.floatLeft , .floatRight{
+        float: none;
+        width: 80%;
+        margin: auto;
+        display: block;
+        
     }
 }
+
+
 
 

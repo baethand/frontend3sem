@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=SF+Pro+Display');
 
 main {
     padding-top: 100px;
@@ -6,6 +6,7 @@ main {
     margin-right: auto;
     width: 1240px;
     margin-bottom: 120px;
+    font-family: 'SF Pro Display', sans-serif;  
 }
 
 
@@ -65,42 +66,17 @@ hr{
 
 h2, h3 {
     margin-top: 20px;
-    font-size: 26px;
+    font-size: 32px;
     padding: 20px 20px 20px 0px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .gallery-container{
     margin: 40px;
     background: radial-gradient(circle, rgba(144, 17, 158, 0.616) 30%, rgba(70, 169, 191, 0.1) 85%, rgba(70, 169, 191, 0) 90%);
-}
-
-.btnPagesContainer {
-    list-style: none;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    align-content: center;
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.btnPagesContainer a {
-    background: linear-gradient(90deg, rgb(1, 69, 74), rgb(90, 50, 118));
-    border-radius: 10px;
-    padding: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
-    font-weight: bold;
-}
-
-.btnPagesContainer a:hover {
-    transform: scale(1.2);
-    transition: ease-out 0.15s;
 }
 
 
@@ -128,16 +104,7 @@ p {
         width: 100%;
     }
 
-    .btnPagesContainer {
-        width: 70%;
-        margin-top: 20px;
-    }
-
-    .btnPagesContainer a {
-        font-size: 10px;
-        padding: 4px;
-        border-radius: 5px;
-    }
+    
 
     .pageTitle{
         font-size:xx-large;

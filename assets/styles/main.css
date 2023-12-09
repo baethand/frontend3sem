@@ -190,6 +190,26 @@ p#txt-centered {
     }
 }
 
+@media (max-width: 500px) {
+	h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    img#steamDeck {
+        border-radius: 27px;
+        box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3) ;
+    }
+
+    img#cukerberg {
+        border-radius: 27px;
+        box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.3) ;
+    }
+}
+
 .comments {
     width: 70%;
     margin: 0 auto;
@@ -206,7 +226,7 @@ p#txt-centered {
     font-size: 28px;
   }
   .comments form {
-    width: 500px;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
