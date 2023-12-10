@@ -79,22 +79,22 @@ main p {
     margin-bottom: 20px;
     transition: transform 0.3s ease;
     text-align: center;
-  }
+}
   
-  .product-card:hover {
+.product-card:hover {
     transform: translateY(-5px);
-  }
+}
   
-  .product-card img {
+.product-card img {
     margin-bottom: 17px;
     width: 90%;
     height: 90%;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
+}
   
-  .add-to-cart-btn {
+.add-to-cart-btn {
     background-color: #333;
     color: white;
     padding: 10px 16px;
@@ -103,11 +103,11 @@ main p {
     cursor: pointer;
     margin-top: 15px;
     transition: background-color 0.3s ease;
-  }
+}
   
-  .add-to-cart-btn:hover {
+.add-to-cart-btn:hover {
     background-color: #555;
-  }
+}
   
 .cart-sidebar {
     position: fixed;
