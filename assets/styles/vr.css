@@ -76,6 +76,7 @@ p {
 
 .gallery-container{
     margin: 40px;
+
     background: radial-gradient(circle, rgba(144, 17, 158, 0.616) 30%, rgba(70, 169, 191, 0.1) 85%, rgba(70, 169, 191, 0) 90%);
 }
 
@@ -97,11 +98,33 @@ p {
         margin-right: 10px;
         margin-left: 10px;
     }
+
+    .gallery-container {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
 }
 
 @media (max-width: 500px) {
 	main{
-        width: 100%;
+        width: 90%;
+        margin-bottom: 60px;
+    }
+
+    p#context {
+        font-size: 20px;
+    }
+
+    main p {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    main h2, main h3 {
+        font-size: 24px;
+        text-align: center;
     }
 
     

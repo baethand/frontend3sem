@@ -136,4 +136,14 @@ main p {
 	.pageTitle {
         font-size: 30px;
     }
+
+    main p {
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    main h2, main h3 {
+        font-size: 24px;
+        text-align: center;
+    }
 }

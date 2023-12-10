@@ -97,5 +97,10 @@
     flex: var(--magnifier);
   }
 }
-
+@media (max-width: 500px) {
+  .gallery {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
 

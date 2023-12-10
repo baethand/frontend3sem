@@ -97,7 +97,8 @@ footer p , a {
 }
 
 @media (max-width: 570px) {
-
+    
+    
     .btnPagesContainer {
         width: 70%;
         margin-top: 20px;

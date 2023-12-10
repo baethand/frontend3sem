@@ -152,12 +152,14 @@ p {
         width: 90%;
     }
 
-    p {
+    main p {
         font-size: 18px;
+        text-align: justify;
     }
 
-    h2, h3 {
+    main h2, main h3 {
         font-size: 24px;
+        text-align: center;
     }
 
     iframe {
