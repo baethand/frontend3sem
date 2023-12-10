@@ -9,6 +9,8 @@ main {
     width: 1240px;
     margin-bottom: 120px;
     font-family: 'SF Pro Display', sans-serif;
+    
+    text-align: justify;
 }
 
 @media (max-width: 1300px) {
